@@ -1,0 +1,53 @@
+object Form1: TForm1
+  Left = -983
+  Height = 326
+  Top = 193
+  Width = 564
+  Caption = 'Form1'
+  ClientHeight = 326
+  ClientWidth = 564
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '3.0.0.3'
+  object ImageOriginal: TImage
+    Left = 16
+    Height = 256
+    Top = 16
+    Width = 256
+  end
+  object ImageEdited: TImage
+    Left = 288
+    Height = 256
+    Top = 16
+    Width = 256
+  end
+  object ButtonLoad: TButton
+    Left = 16
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Load'
+    TabOrder = 0
+    OnClick = ButtonLoadClick
+  end
+  object ButtonProcess: TButton
+    Left = 104
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Process'
+    TabOrder = 1
+    OnClick = ButtonProcessClick
+  end
+  object LabelProcess: TLabel
+    Left = 192
+    Height = 15
+    Top = 288
+    Width = 46
+    Caption = 'Procecss'
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Left = 512
+    Top = 288
+  end
+end
