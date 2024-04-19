@@ -1,53 +1,216 @@
 object Form1: TForm1
-  Left = -983
-  Height = 326
-  Top = 193
-  Width = 564
+  Left = 486
+  Height = 696
+  Top = 165
+  Width = 1374
   Caption = 'Form1'
-  ClientHeight = 326
-  ClientWidth = 564
+  ClientHeight = 696
+  ClientWidth = 1374
+  DesignTimePPI = 120
   OnCreate = FormCreate
   OnDestroy = FormDestroy
   LCLVersion = '3.0.0.3'
   object ImageOriginal: TImage
     Left = 16
     Height = 256
-    Top = 16
+    Top = 40
     Width = 256
   end
-  object ImageEdited: TImage
+  object ImageBijiMataTexture: TImage
     Left = 288
     Height = 256
-    Top = 16
+    Top = 40
     Width = 256
   end
   object ButtonLoad: TButton
     Left = 16
-    Height = 25
-    Top = 288
-    Width = 75
+    Height = 31
+    Top = 304
+    Width = 94
     Caption = 'Load'
     TabOrder = 0
     OnClick = ButtonLoadClick
   end
-  object ButtonProcess: TButton
-    Left = 104
-    Height = 25
-    Top = 288
-    Width = 75
+  object Label1: TLabel
+    Left = 16
+    Height = 20
+    Top = 8
+    Width = 53
+    Caption = 'Original'
+  end
+  object Label2: TLabel
+    Left = 288
+    Height = 20
+    Top = 8
+    Width = 111
+    Caption = 'Biji Mata Texture'
+  end
+  object ImageBijiMataContour: TImage
+    Left = 560
+    Height = 256
+    Top = 40
+    Width = 256
+  end
+  object Label3: TLabel
+    Left = 560
+    Height = 20
+    Top = 8
+    Width = 116
+    Caption = 'Biji Mata Contour'
+  end
+  object ButtonBijiMataTexture: TButton
+    Left = 288
+    Height = 31
+    Top = 304
+    Width = 94
     Caption = 'Process'
     TabOrder = 1
-    OnClick = ButtonProcessClick
+    OnClick = ButtonBijiMataTextureClick
   end
-  object LabelProcess: TLabel
-    Left = 192
-    Height = 15
-    Top = 288
-    Width = 46
-    Caption = 'Procecss'
+  object ButtonBijiMataContour: TButton
+    Left = 560
+    Height = 31
+    Top = 304
+    Width = 94
+    Caption = 'Process'
+    TabOrder = 2
+    OnClick = ButtonBijiMataContourClick
+  end
+  object ButtonPupilTexture: TButton
+    Left = 832
+    Height = 31
+    Top = 304
+    Width = 94
+    Caption = 'Process'
+    TabOrder = 3
+    OnClick = ButtonPupilTextureClick
+  end
+  object ImagePupilTexture: TImage
+    Left = 832
+    Height = 256
+    Top = 40
+    Width = 256
+  end
+  object Label4: TLabel
+    Left = 832
+    Height = 20
+    Top = 8
+    Width = 85
+    Caption = 'Pupil Texture'
+  end
+  object Label5: TLabel
+    Left = 1104
+    Height = 20
+    Top = 8
+    Width = 90
+    Caption = 'Pupil Contour'
+  end
+  object ImagePupilContour: TImage
+    Left = 1104
+    Height = 256
+    Top = 40
+    Width = 256
+  end
+  object ButtonPupilContour: TButton
+    Left = 1104
+    Height = 31
+    Top = 304
+    Width = 94
+    Caption = 'Process'
+    TabOrder = 4
+    OnClick = ButtonPupilContourClick
+  end
+  object Label6: TLabel
+    Left = 288
+    Height = 20
+    Top = 352
+    Width = 97
+    Caption = 'Mask Biji Mata'
+  end
+  object ImageMaskBijiMata: TImage
+    Left = 288
+    Height = 256
+    Top = 384
+    Width = 256
+  end
+  object ButtonMaskBijiMata: TButton
+    Left = 288
+    Height = 31
+    Top = 648
+    Width = 94
+    Caption = 'Process'
+    TabOrder = 5
+    OnClick = ButtonMaskBijiMataClick
+  end
+  object ImageMaskPupil: TImage
+    Left = 560
+    Height = 256
+    Top = 384
+    Width = 256
+  end
+  object Label7: TLabel
+    Left = 560
+    Height = 20
+    Top = 352
+    Width = 71
+    Caption = 'Mask Pupil'
+  end
+  object ButtonMaskPupil: TButton
+    Left = 560
+    Height = 31
+    Top = 648
+    Width = 94
+    Caption = 'Process'
+    TabOrder = 6
+    OnClick = ButtonMaskPupilClick
+  end
+  object Label8: TLabel
+    Left = 832
+    Height = 20
+    Top = 352
+    Width = 57
+    Caption = 'Mask Iris'
+  end
+  object ImageMaskIris: TImage
+    Left = 832
+    Height = 256
+    Top = 384
+    Width = 256
+  end
+  object ButtonMaskIris: TButton
+    Left = 832
+    Height = 31
+    Top = 648
+    Width = 94
+    Caption = 'Process'
+    TabOrder = 7
+    OnClick = ButtonMaskIrisClick
+  end
+  object Label9: TLabel
+    Left = 1104
+    Height = 20
+    Top = 352
+    Width = 94
+    Caption = 'Mask Iris Hasil'
+  end
+  object ImageMaskIrisHasil: TImage
+    Left = 1104
+    Height = 256
+    Top = 384
+    Width = 256
+  end
+  object ButtonMaskIrisHasil: TButton
+    Left = 1104
+    Height = 31
+    Top = 648
+    Width = 94
+    Caption = 'Process'
+    TabOrder = 8
+    OnClick = ButtonMaskIrisHasilClick
   end
   object OpenPictureDialog1: TOpenPictureDialog
-    Left = 512
-    Top = 288
+    FileName = 'D:\Documents\projects\lazarus_project\comvis_t5\test_image4.bmp'
+    Left = 120
+    Top = 304
   end
 end

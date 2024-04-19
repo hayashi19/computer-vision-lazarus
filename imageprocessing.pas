@@ -20,6 +20,7 @@ type
     function ProcessTreshold(Image: TImage; TresholdValue: Integer): TPicture;
     function ProcessInverse(Image: TImage): TPicture;
     function ProcessFilter(Image: TImage; Filter: TFilter): TPicture;
+    function ProcessMult(Image, Image2: TImage): TPicture;
   end;
 
 
@@ -144,12 +145,12 @@ begin
         Grey:=(r + g + b) div 3;
         Grey:=Min(255, Max(0, Grey));
 
-        if Grey > TresholdValue then
+        if Grey <= TresholdValue then
         begin
-          Result.Bitmap.Canvas.Pixels[X, Y]:=RGB(255,255,255);
+          Result.Bitmap.Canvas.Pixels[X, Y]:=RGB(0,0,0);
         end
         else begin
-          Result.Bitmap.Canvas.Pixels[X, Y]:=RGB(0,0,0);
+          Result.Bitmap.Canvas.Pixels[X, Y]:=RGB(255,255,255);
         end;
 
         ProcessTime:=ProcessTime + 1;
@@ -273,6 +274,43 @@ begin
       end;
     end;
 
+  except
+    Result.Free;
+    raise;
+  end;
+end;
+
+function TImageProcessor.ProcessMult(Image, Image2: TImage): TPicture;
+var
+  X, Y, R, G, B, R2, G2, B2: Integer;
+begin
+  ProcessTime:=0;
+
+  Result := TPicture.Create;
+  try
+    Result.Assign(Image.Picture);
+
+    for X := 0 to Image.Width - 1 do
+    begin
+      for Y := 0 to Image.Height - 1 do
+      begin
+        R:=GetRValue(Image.Canvas.Pixels[X, Y]);
+        G:=GetGValue(Image.Canvas.Pixels[X, Y]);
+        B:=GetBValue(Image.Canvas.Pixels[X, Y]);
+
+        R2:=GetRValue(Image2.Canvas.Pixels[X, Y]);
+        G2:=GetGValue(Image2.Canvas.Pixels[X, Y]);
+        B2:=GetBValue(Image2.Canvas.Pixels[X, Y]);
+
+        R:=R * R2 div 255;
+        G:=G * G2 div 255;
+        B:=B * B2 div 255;
+
+        Result.Bitmap.Canvas.Pixels[X, Y]:=RGB(R, G, B);
+
+        ProcessTime:=ProcessTime + 1;
+      end;
+    end;
   except
     Result.Free;
     raise;

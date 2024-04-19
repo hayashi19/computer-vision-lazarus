@@ -8,9 +8,10 @@
       <Unit>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="32" Y="13"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="17" Y="13"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="unit1.pas"/>
@@ -20,9 +21,10 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="60"/>
-        <CursorPos X="21" Y="63"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="105"/>
+        <CursorPos X="52" Y="129"/>
+        <FoldState Value=" T3jL0H015 Pdid0w"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -31,148 +33,148 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="ImageProcessing"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="248"/>
-        <CursorPos X="14" Y="22"/>
-        <FoldState Value=" T3R0V3 PjBjC0h"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="19"/>
+        <CursorPos X="35" Y="164"/>
+        <FoldState Value=" T3S0V3 pjBk70V1 piejW0ZJ"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="C:\Users\hayas\dev_tools\lazarus\lcl\include\control.inc"/>
+        <Filename Value="D:\Downloads\imageprocessing.pas"/>
+        <UnitName Value="ImageProcessing"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="3981"/>
-        <CursorPos Y="4000"/>
+        <TopLine Value="258"/>
+        <CursorPos X="5" Y="282"/>
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="C:\Users\hayas\dev_tools\lazarus\lcl\graphics.pp"/>
-        <UnitName Value="Graphics"/>
+        <Filename Value="C:\Users\hayas\dev_tools\lazarus\lcl\include\fpimagebitmap.inc"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="446"/>
-        <CursorPos X="3" Y="462"/>
+        <TopLine Value="158"/>
+        <CursorPos Y="141"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="imageprocessing.pas"/>
-        <Caret Line="17" Column="14"/>
-      </Position>
-      <Position>
-        <Filename Value="imageprocessing.pas"/>
-        <Caret Line="15" Column="16"/>
-      </Position>
-      <Position>
-        <Filename Value="imageprocessing.pas"/>
-        <Caret Line="28" Column="29" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="imageprocessing.pas"/>
-        <Caret Line="15" Column="22" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="imageprocessing.pas"/>
-        <Caret Line="17" Column="5"/>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="86" Column="84" TopLine="66"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="40" Column="18" TopLine="11"/>
+        <Caret Line="90" Column="21" TopLine="75"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="42" Column="18" TopLine="11"/>
+        <Caret Line="95" Column="24" TopLine="75"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="49" Column="67" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="imageprocessing.pas"/>
-        <Caret Line="48" Column="31" TopLine="16"/>
+        <Caret Line="90" Column="83" TopLine="81"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="40" Column="18" TopLine="22"/>
+        <Caret Line="113" Column="49" TopLine="101"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="43" Column="3" TopLine="22"/>
+        <Caret Line="146" Column="90" TopLine="95"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="44" Column="29" TopLine="34"/>
+        <Caret Line="152" Column="90" TopLine="129"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="62" Column="91" TopLine="36"/>
+        <Caret Line="82" Column="3" TopLine="80"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="66" TopLine="36"/>
+        <Caret Line="155" TopLine="137"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="62" Column="83" TopLine="38"/>
+        <Caret Line="107" Column="3" TopLine="105"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="66" TopLine="36"/>
+        <Caret Line="160" Column="87" TopLine="145"/>
       </Position>
       <Position>
         <Filename Value="imageprocessing.pas"/>
-        <Caret Line="48" Column="31" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="30" Column="27" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="66" TopLine="38"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="63" Column="30" TopLine="36"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="27" Column="36" TopLine="37"/>
+        <Caret Line="308" Column="55" TopLine="265"/>
       </Position>
       <Position>
         <Filename Value="imageprocessing.pas"/>
-        <Caret Line="65" Column="20" TopLine="49"/>
+        <Caret Line="303" Column="16" TopLine="292"/>
       </Position>
       <Position>
         <Filename Value="unit1.pas"/>
-        <Caret Line="63" Column="91" TopLine="37"/>
+        <Caret Line="178" Column="30" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="180" Column="60" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="174" Column="40" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="179" Column="64" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="172" Column="83" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="175" Column="83" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="189" Column="3" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="192" Column="54" TopLine="171"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="193" Column="41" TopLine="173"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="183" Column="4" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="196" Column="4" TopLine="177"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="203" Column="58" TopLine="183"/>
       </Position>
       <Position>
         <Filename Value="imageprocessing.pas"/>
-        <Caret Line="18" Column="87" TopLine="7"/>
+        <Caret Line="284" Column="40"/>
       </Position>
       <Position>
         <Filename Value="imageprocessing.pas"/>
-        <Caret Line="145" Column="13" TopLine="130"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="85" Column="14" TopLine="56"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="84" Column="68" TopLine="56"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="29" Column="15" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="unit1.pas"/>
-        <Caret Line="87" Column="52" TopLine="58"/>
+        <Caret Line="283" TopLine="165"/>
       </Position>
       <Position>
         <Filename Value="imageprocessing.pas"/>
-        <Caret Line="272" Column="47" TopLine="232"/>
+        <Caret Line="321" Column="5" TopLine="297"/>
+      </Position>
+      <Position>
+        <Filename Value="imageprocessing.pas"/>
+        <Caret Line="20" Column="7" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="imageprocessing.pas"/>
+        <Caret Line="320" Column="5" TopLine="296"/>
       </Position>
     </JumpHistory>
     <RunParams>

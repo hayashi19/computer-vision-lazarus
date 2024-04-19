@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\Users\hayas\dev_tools\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1469148810"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq -FiD:\Documents\projects\lazarus_project\comvis_t5\lib\x86_64-win64 -FuC:\Users\hayas\dev_tools\lazarus\lcl\units\x86_64-win64\win32 -FuC:\Users\hayas\dev_tools\lazarus\lcl\units\x86_64-win64 -FuC:\Users\hayas\dev_tools\lazarus\components\freetype\lib\x86_64-win64 -FuC:\Users\hayas\dev_tools\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\Users\hayas\dev_tools\lazarus\packager\units\x86_64-win64 -FuD:\Documents\projects\lazarus_project\comvis_t5\ -FUD:\Documents\projects\lazarus_project\comvis_t5\lib\x86_64-win64\ -FED:\Documents\projects\lazarus_project\comvis_t5\ -oD:\Documents\projects\lazarus_project\comvis_t5\project1.exe -dLCL -dLCLwin32 project1.lpr"/>
+</CONFIG>
